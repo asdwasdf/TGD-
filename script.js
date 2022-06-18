@@ -52,6 +52,29 @@ function imgAuto()
     
 }
 setInterval(imgAuto,5000)
+const leftbtn_2=document.querySelector(".leftbtn_2")
+const rightbtn_2=document.querySelector(".rightbtn_2")
+const imgNumber1=document.querySelectorAll(".slider-product-one-content-items")
+
+leftbtn_2.addEventListener("click",function()
+{
+   index=index+1
+   if(index>imgNumber1.length-1)
+   {
+       index=0;
+   }
+   document.querySelector(".slider-product-content-items-contents").style.right=index*100+"%"
+})
+rightbtn_2.addEventListener("click",function()
+{
+   index=index+1
+   if(index>imgNumber1.length-1)
+   {
+       index=0;
+   }
+   document.querySelector(".slider-product-content-items-contents").style.right=index*100+"%"
+})
+
 
 
 
