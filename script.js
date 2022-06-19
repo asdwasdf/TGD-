@@ -74,6 +74,14 @@ rightbtn_2.addEventListener("click",function()
    }
    document.querySelector(".slider-product-content-items-contents").style.right=index*100+"%"
 })
+//--------------------------------footer--------------------------
+const click = document.querySelector('.click')
+console.log(click)
+click.addEventListener('click',function(){
+    const dropdown = document.querySelector('.drop-down')
+    console.log(dropdown)
+    dropdown.classList.toggle('new')
+})
 
 
 

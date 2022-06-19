@@ -6,6 +6,9 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
+.clear {
+    clear:both;
+}
 ul{
     list-style: none;
 }
@@ -304,7 +307,7 @@ li{
     list-style: none;
 }
 .slider-product-one{
-    margin-top: 12px;
+    margin-top: 200px;
 }
 .slider-product-one-content
 {
@@ -659,4 +662,68 @@ info-devi:visited{
     background-color: white ;
     color: black;
 }
+/*---------------------------------footer-------------------------*/
+
+.footer {
+    margin-top: 35px;
+    border-top: 1px solid #e2e2e2;
+    margin-top: 35px; 
+}
+.section{
+    height: 100%;
+}
+
+.footer-top  {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 0;
+}
+.footer-column  {
+    float: left;
+    width: 24%;
+}
+.footer-column:nth-child(3)
+{
+    width: 23%;
+}
+.footer-column:nth-child(4)
+{
+    width: 29%;
+}
+.footer-top li  a {
+    font-size: 14px;
+    color: #000;
+}
+
+.click > span{
+    font-size:14px;
+}
+.f-lisstel {
+    font-size: 14px;
+}
+.f-listmenu li a:hover ,span:hover {
+    color: #2f80ed;
+    cursor: pointer;
+}
+.f-social a {
+    color: #2f80ed;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.copyright {
+    margin-top: 10px;
+    padding: 15px 0;
+    background-color: #f1f1f1;
+}
+.copyright p {
+    font-size: 12px;
+    text-align : center;
+    color: #666 
+}
+.new {
+    display: none ;
+}
+
 
