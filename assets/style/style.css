@@ -26,6 +26,9 @@ header{
     background-color: #FBD20E;
     text-align: center;
 }
+body {
+    
+}
 
 /* ------------------------------------------------------ */
 
@@ -156,7 +159,7 @@ nav ul li:nth-child(8) a {
     margin-right: 4px;
     font-size: 15px;
 }
-/*slider*/
+/*--------------------------------------------------------------slider-------------------------------------------*/
 li{
     list-style-type: none;
 }
@@ -291,6 +294,76 @@ li{
     margin-top: 30px;
     width: 100%;
 }
+/*----------------------------------------------begin promo------------------------------------------------*/
+.option-promo{
+    margin-top: 14px;
+}
+.list-promo {
+    display: flex;
+    overflow: hidden;
+    text-align: justify;
+    margin: 30px 0;
+    border-radius: 12px;
+    margin: 0 0 30px;
+    position: relative;
+    z-index: 1;
+}
+.list-promo li {
+    width: calc(100%/3 - 16px);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    background-color: #F1F1F1;
+    border-radius: 12px;
+    padding: 15px 0;
+}
+.list-promo li a {
+    display: block;
+    overflow: hidden;
+}
+.list-promo li img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 70px;
+}
+.list-promo li span {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    color: #222;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 10px;
+    max-width: 65%;
+}
+.list-promo li:nth-child(4)
+{
+    margin-right: 1px;
+}
+/*----------------------------------------------end promo------------------------------------------------*/
+/*---------------------------------------------begin banner-------------------------------------*/
+.banner-sale {
+    width: 100%;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    z-index:    0; 
+}
+.banner-wrap{
+    width:1200px;
+    margin : auto;
+}
+.banner-left {
+    float: left;
+    margin-left: -85px;
+}
+.banner-right {
+    float:right;
+    margin-right: -85px;
+}
+/*---------------------------------------------end banner-------------------------------------*/
+/*-------------------------end-slider-------------------*/
 .div
 {
     margin-bottom: 0px;
@@ -493,6 +566,7 @@ li{
 .slider-product-one
 {
     margin-bottom: 30px;
+    margin-top: 300px;
 }
 /*Xu hướng*/
 .product-gallery-one-content{
@@ -725,5 +799,7 @@ info-devi:visited{
 .new {
     display: none ;
 }
-
+@media screen and (max-width : 800px) {
+    
+}
 
